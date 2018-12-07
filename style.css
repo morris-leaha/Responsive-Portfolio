@@ -232,7 +232,27 @@ footer {
     .clearfix {
         width: 90%;
     }
-}
+
+    .portfolio-content {
+        align-content: center;
+    }
+    .grid {
+        display: block;
+    }
+
+    .grid > img {
+        width: 100%;
+        position: relative;
+        
+    }
+
+    .grid > div {
+        margin-bottom: 40px;
+    }
+
+    a.portfolio-image-labels {
+        position: absolute;
+    }
 
 @media screen and (max-width: 768px) {
 

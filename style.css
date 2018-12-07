@@ -32,9 +32,14 @@ h1 {
 }
 
 nav {
-    opacity: 0.40;
     float: right;
     padding: 30px 0;
+}
+
+
+a.nav {
+    color: #cccccc;
+    opacity: 0.40;    
 }
 
 a.nav:link {
@@ -204,4 +209,35 @@ footer {
     font-size: 14px;
     text-align: center;
     box-sizing: border-box;
+}
+
+@media screen and (max-width: 640px) {
+
+    .header-content {
+        width: 100%;
+        text-align: center;
+    }
+    
+    h1 {
+        width: 94%;
+    }
+
+    nav {
+        width: 100%;
+        background-color: #ffffff;
+        border-bottom: 2px #cccccc solid;
+        margin-bottom: 40px;
+    }
+    
+    .clearfix {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 980px) {
+
 }

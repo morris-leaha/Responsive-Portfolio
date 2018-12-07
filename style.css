@@ -184,8 +184,8 @@ textarea {
     box-sizing: border-box;
 }
 
-.submit > input {
-    width: 12%;
+[type=submit] {
+    width: 110px;
     height: 40px;
     background-color: #4aaaa5;
     color: #ffffff;
@@ -211,6 +211,18 @@ footer {
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 768px) {
+    
+    .header-content {
+        width: 90%;
+        text-align: center;
+    }
+    
+    .clearfix {
+        width: 90%;
+    }
+}
+
 @media screen and (max-width: 640px) {
 
     .header-content {
@@ -220,6 +232,7 @@ footer {
     
     h1 {
         width: 94%;
+        margin: 0;
     }
 
     nav {
@@ -253,11 +266,3 @@ footer {
     a.portfolio-image-labels {
         position: absolute;
     }
-
-@media screen and (max-width: 768px) {
-
-}
-
-@media screen and (max-width: 980px) {
-
-}

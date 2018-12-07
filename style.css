@@ -211,6 +211,17 @@ footer {
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 980px) {
+    .header-content {
+        width: 90%;
+        text-align: center;
+    }
+    
+    .clearfix {
+        width: 90%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     
     .header-content {

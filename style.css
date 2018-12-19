@@ -36,19 +36,14 @@ nav {
     padding: 30px 0;
 }
 
-
-a.nav {
-    color: #cccccc;
-    opacity: 0.40;    
-}
-
 a.nav:link {
-    color: #dddddd;
+    color: #999;
+    opacity: 0.8;
     text-decoration: none;
 }
 
 a.nav:visited {
-    color: #202428;
+    color: #5e5c5c;
     text-decoration: none;
 }
 
